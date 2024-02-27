@@ -1,0 +1,13 @@
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: #ffe4c4;
+}
+
+
+.navbar-biscuit {
+    background-color: #ffe4c4;
+}
