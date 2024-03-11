@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom'
+import CloseButton from 'react-bootstrap/CloseButton';
 
 export const Item = ({ product }) => {
   return (
@@ -15,7 +17,9 @@ export const Item = ({ product }) => {
           </div>
 
           <Link to={`/product/${product.id}`}>
-            <button> Ver Producto </button>
+            
+          <Button variant="primary">Ver Producto</Button>
+         
           </Link>
 
         </div>
