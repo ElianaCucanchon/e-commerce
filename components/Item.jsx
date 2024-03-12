@@ -18,7 +18,7 @@ export const Item = ({ product }) => {
 
           <Link to={`/product/${product.id}`}>
             
-          <Button variant="primary">Ver Producto</Button>
+          <Button variant="success">Ver Producto</Button>
          
           </Link>
 

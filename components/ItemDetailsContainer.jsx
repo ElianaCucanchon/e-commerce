@@ -19,7 +19,7 @@ export const ItemDetailsContainer = () => {
     }, [])
    
     return (
-        <div className="w-full  h-screen">
+        <div className="d-flex align-items-center justify-content-center">
            
                 <ItemDetail item={item} />
             

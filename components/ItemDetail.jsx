@@ -7,13 +7,13 @@ export const ItemDetail = ({item}) => {
         <Card style={{ width: '18rem', }}>
             <Card.Img  xs= {12} md={8} src={`../img/${item.img}`} alt ={`Imagen de ${item.title}`}/>
             <Card.Body className="classCenter">
-                <Card.Title className="text-2x1 font-bold mb-2"> {item.title}</Card.Title>
+                <Card.Title className="text-2x1 font-bold mb-2">{item.name}</Card.Title>
                 <CardText>
                 <p>Size: {item.size}</p>
                 <p>Stock:{item.stock}</p>
                 <p>Precio:{item.price}</p>
                 </CardText>
-                <Button variant="primary">Agregar a Carrito</Button>
+                <Button variant="success">Agregar a Carrito</Button>
             </Card.Body>
         </Card>
     );

@@ -13,12 +13,6 @@ import { NotFount } from './components/NotFount'
 
 
 
-
-
-
-
-
-
 export const App = () => {
   return (
     <BrowserRouter>
