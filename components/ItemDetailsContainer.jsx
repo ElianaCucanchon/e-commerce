@@ -1,29 +1,25 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { ItemDetail } from "./ItemDetail"
+import { getProduct } from "../firebase/firebase.js"
+import { toast } from 'react-toastify'
 
 export const ItemDetailsContainer = () => {
     const [item, setItem] = useState([])
     const { pid } = useParams()
 
     useEffect(() => {
-        fetch('../data/productos.json')
-            .then(response => response.json())
-            .then(productos => {
-                console.log(productos)
-                const prod = productos.find(producto => producto.id == pid)
-                console.log(prod)
-                if (prod)
-                    setItem(prod)
-            })
+   getProduct(pid)
+   .then(prod=> setItem(prod))
+   .catch(error => console.log(error))
     }, [])
    
     return (
-        <div className="d-flex align-items-center justify-content-center">
+        <>
            
                 <ItemDetail item={item} />
             
-        </div>
+        </>
     
     )
 }
