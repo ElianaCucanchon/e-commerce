@@ -1,0 +1,146 @@
+[
+    {
+       
+        "name": "Camisa naranja",
+        "size": "medium",
+        "price": 300.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/1.jpg?alt=media&token=cc14cf81-b01e-4387-9fe9-ab5254b12abb",
+        "category": "mujer"
+    },
+    {
+        
+        "name": "camisa verde",
+        "size": "medium",
+        "price": 400.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/2.jpg?alt=media&token=d6f5fbaa-e125-4483-ac59-bf1165543194",
+        "category": "mujer"
+    },
+    {
+        
+        "name": "Pantalon Hombre azul",
+        "size": "medium",
+        "price": 300.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/3.jpg?alt=media&token=1668cd7c-17ac-4c76-b2cd-a0383c502842",
+        "category": "hombre"
+    },
+    {
+       
+        "name": "Joodie Rojo",
+        "size": "medium",
+        "price": 100.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/4.jpg?alt=media&token=7b55b7d3-71a5-46c4-acf5-72c0cc2f45ac",
+        "category": "hombre"
+    },
+    {
+       
+        "name": "Joodie Azul",
+        "size": "medium",
+        "price": 150.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/5.jpg?alt=media&token=81f30cfc-cd60-4cf0-9a8b-c22abfff211a",
+        "category": "hombre"
+    },
+    {
+       
+        "name": "Pantalon mujer",
+        "size": "medium",
+        "price": 200.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/6.jpg?alt=media&token=f273b441-3559-45ca-94b6-2cf350c4d3f0",
+        "category": "mujer"
+    },
+    {
+        
+        "name": "Camisa Roja",
+        "size": "medium",
+        "price": 300.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/7.jpg?alt=media&token=4abafe4a-0d14-4d75-892b-9096355503c1",
+        "category": "mujer"
+    },
+    {
+        
+        "name": "Gorra Boss",
+        "size": "medium",
+        "price": 400.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/8.jpg?alt=media&token=2088c851-b9f9-407c-a31b-ddbbce6248fe",
+        "category": "descuentos"
+    },
+    {
+      
+        "name": "Camisa mujer Azul",
+        "size": "medium",
+        "price": 350.0,
+        "stock": 15,
+        "img": "9.jpg",
+        "category": "mujer"
+    },
+    {
+       
+        "name": "Camisas botones",
+        "size": "medium",
+        "price": 250.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/10.jpg?alt=media&token=1f4977fd-1ffc-40dd-9ca0-b641353d4d1e",
+        "category": "mujer"
+    },
+    {
+       
+        "name": "Camisa Rosada",
+        "size": "medium",
+        "price": 140.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/11.jpg?alt=media&token=23474997-bd23-41b5-9ad0-fdaa26d243fb",
+        "category": "rebajas"
+    },
+    {
+       
+        "name": "Patalon elegante",
+        "size": "medium",
+        "price": 130.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/12.jpg?alt=media&token=dc7031d2-a448-4ff5-8e3d-2a1cf1d5f274",
+        "category": "rebajas"
+    },
+    {
+        
+        "name": "camisa + pantalon pareja",
+        "size": "medium",
+        "price": 170.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/13.jpg?alt=media&token=9844a144-7752-4ca7-9e72-79d393790876",
+        "category": "rebajas"
+    },
+    {
+        
+        "name": "Camisas pareja",
+        "size": "medium",
+        "price": 130.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/14.jpg?alt=media&token=5b05f861-ed0a-46f4-910d-8592633a1011",
+        "category": "rebajas"
+    },
+    {
+        
+        "name": "Camisas Azul",
+        "size": "medium",
+        "price": 130.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/15.jpg?alt=media&token=5f3a2df1-75d2-4e80-aa3c-f1abe9c5e327",
+        "category": "hombre"
+    },
+    {
+        
+        "name": "Camiseta Hombre",
+        "size": "medium",
+        "price": 130.0,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-81b13.appspot.com/o/16.jpg?alt=media&token=95d0c4b1-5b5a-4b45-a054-27918694e1ca",
+        "category": "hombre"
+    }
+]
