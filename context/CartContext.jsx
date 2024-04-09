@@ -2,7 +2,7 @@ import { useState, createContext, useContext } from "react";
 
 const CarritoContext = createContext()  //Creando el contexto (por el momento vacio)
 
-export const useCarritoContext = () => useContext(CarritoContext) //Funcion para consultr mi contenido
+export const useCarritoContext = () => useContext(CarritoContext) //Funcion para consultar mi contenido
 
 //Proveedor de datos del carrito
 
@@ -10,7 +10,7 @@ export const CarritoProvider = (props) => {//Forma de proveer el contexto, puede
     // Un carrtito tiene que ofrecer?
     //=Agregar  productos al carrito- Eliminar producto 
     //-Vaciar carrito - Optener cantidad (subtotales) 
-    //-Optener preio total (suma de subtotales)
+    //-Optener precio total (suma de subtotales)
 
 
     const [carrito, setCarrito] = useState([])
@@ -24,17 +24,22 @@ export const CarritoProvider = (props) => {//Forma de proveer el contexto, puede
     //AGREGAR UN PRODUCTO
 
     const addItem = (item, cantidad) => {
-        if (isInCart(item.id)) {
+        const existingItem = carrito.find((prod) => prod.id === item.id);
+        if (existingItem) {
+            existingItem.quantity = cantidad;
+            setCarrito([...carrito]);
+
+     /*    if (isInCart(item.id)) {
             const indice = carrito.findIndex(prod => prod.id === item.id)
             const aux = [...carrito]
             aux[indice].quantity = cantidad
             setCarrito(aux)
-
+ */
         } else {
             const newItem = {
                 ...item,
-                quantity: cantidad
-            }
+                quantity: cantidad 
+            };
 
             /* const aux =[...carrito]
             aux.push(newItem)
@@ -66,14 +71,13 @@ export const CarritoProvider = (props) => {//Forma de proveer el contexto, puede
         setCarrito([])
     }
     const updateItem = (id, newQuantity) => {
-        const indice = carrito.findIndex (prod => prod.id === id)
-        const aux = carrito
+        const indice = carrito.findIndex(prod => prod.id === id)
+        const aux = [...carrito]
         aux[indice].quantity = newQuantity
-       
-        setCarrito([...aux])
+        setCarrito(aux)
     }
 
-    //Obtener cantidad d eproductos. CANTIDAD DE PRODUCTOS EN EL CARRITO. 
+    //Optener cantidad de productos. CANTIDAD DE PRODUCTOS EN EL CARRITO. 
 
     const getItemQuantity = () => {
         return carrito.reduce((acum, prod) => acum += prod.quantity, 0)

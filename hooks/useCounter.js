@@ -14,7 +14,7 @@ export const useCounter = (initialValue = 0, maxValue = 1, step = 1) => {
         }
     }
     const reset = () => {
-        setCount(1)
+        setCount(initialValue);
     }
 
     return { count, increment, decrement, reset}

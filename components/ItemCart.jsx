@@ -11,10 +11,11 @@ export const ItemCart = ({ product }) => {
         
         <Card style={{ width: '18rem', }}>
             
-                <Card.Img xs={12} md={8} src={`${product.img}`} alt={`Imagen de ${product.title} `} />
+                <Card.Img xs={12} md={8} src={`${product.img}`} alt={`Imagen de ${product.name} `} />
           
             <div>
                 <h3>{product.title} </h3>
+                <h3>{product.name} </h3>
             </div>
             <div>
                 
@@ -51,5 +52,3 @@ export const ItemCart = ({ product }) => {
 
     )
 }
-
-

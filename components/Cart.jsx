@@ -25,7 +25,7 @@ export const Cart = () => {
                     <div>
                         {<ItemList products={carrito} plantilla="ItemCart" />}
                         <div>
-                            <p>Resumen de la Compra: {totalPrice()} </p>
+                            <p>Resumen de la Compra: $ {totalPrice()} </p>
                             <Button variant="success" onClick={emptyCart}>
                                 Vaciar Carrito
                             </Button>
